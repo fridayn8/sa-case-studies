@@ -1,0 +1,4 @@
+# CODEOWNERS — who must review changes to which paths. The last matching pattern wins.
+# Solo learning repository: one owner for everything.
+
+*       @fridayn8

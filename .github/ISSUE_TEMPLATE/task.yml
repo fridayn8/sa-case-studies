@@ -1,0 +1,45 @@
+name: Task
+description: A piece of work (new stage content, case document, template, exercise, fix)
+title: "<type>(<scope>): <short description>"
+labels: ["task"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What should be true when this is done, and why does it matter?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Engagement playbook
+        - Case 01 — Example Corp
+        - Exercises
+        - Templates
+        - References
+        - Repository tooling
+    validations:
+      required: true
+  - type: textarea
+    id: tasks
+    attributes:
+      label: Tasks
+      description: Break the work into small steps.
+      value: |
+        - [ ]
+        - [ ]
+  - type: textarea
+    id: done
+    attributes:
+      label: Definition of Done
+      value: |
+        - [ ] Changes merged via PR
+        - [ ] Consistent with requirements, HLD, ADRs and risk register
+        - [ ] pre-commit passes
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes / references

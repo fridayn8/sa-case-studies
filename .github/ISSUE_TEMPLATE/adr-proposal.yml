@@ -1,0 +1,41 @@
+name: ADR proposal
+description: Propose an architecture decision for the Case 01 ADR log
+title: "docs(adr): <decision to be made>"
+labels: ["adr"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this to start the discussion. The ADR itself is written from
+        `case-01-example-corp/02-options-decisions/adr/0000-template.md` and submitted in a PR
+        with `status: proposed`.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Context and problem statement
+      description: What decision is needed and why now?
+    validations:
+      required: true
+  - type: textarea
+    id: drivers
+    attributes:
+      label: Decision drivers
+      description: Requirements, NFRs and constraints that influence the decision.
+      value: |
+        -
+        -
+  - type: textarea
+    id: options
+    attributes:
+      label: Options to consider
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: research
+    attributes:
+      label: Research / PoC needed?
+      description: Questions that must be answered with evidence before deciding.

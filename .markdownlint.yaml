@@ -1,0 +1,25 @@
+# markdownlint configuration — https://github.com/DavidAnson/markdownlint
+default: true
+
+# Long lines are fine in documentation tables and prose
+MD013: false
+
+# Allow inline HTML (e.g. <details>, <br>)
+MD033: false
+
+# Allow duplicate headings in different sections (e.g. "Basic", "Advanced")
+MD024:
+  siblings_only: true
+
+# First line does not have to be a top-level heading (e.g. ADR front matter)
+MD041: false
+
+# Bold labels like **Basic** / **Advanced** are used intentionally inside command sections
+MD036: false
+
+# Table column style (rule added in newer markdownlint releases): tables are written
+# with compact pipes and are not column-aligned by hand
+MD060: false
+
+# Two independent "Stop and think" boxes follow each other as separate blockquotes
+MD028: false

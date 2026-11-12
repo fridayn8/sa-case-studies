@@ -1,0 +1,10 @@
+# Normalise line endings to LF in the repository
+* text=auto eol=lf
+
+# Scripts must keep LF even on Windows checkouts
+*.sh text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.pdf binary

@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: SA handbook (Git, glossary, templates)
+    url: https://github.com/fridayn8/sa-handbook
+    about: Looking for generic reference material? It lives in the handbook, not here.
