@@ -53,7 +53,7 @@ create for your IT administrator. Only then do we propose a design.
 | **Duration** | Three calendar weeks (about four days of effort) |
 | **Fee** | USD 1 600, fixed |
 | **We need from you** | Read access to the server and the router; backup logs; 30–60 minutes with each of: the IT administrator, HR manager, one staff representative, the IT partner |
-| **Decision at the end** | You decide whether to continue, with a priced proposal in front of you |
+| **Decision at the end** | You decide whether to continue, with a priced proposal for the next phase in front of you |
 
 ### Budget
 

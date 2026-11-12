@@ -79,8 +79,8 @@
 | Document | Template | Case 01 |
 |----------|----------|---------|
 | Change requests with impact analysis | [template](templates/change-request-impact-analysis.md) | [Change request: CCTV](../case-01-example-corp/05-proposal-delivery/change-request-cctv.md) |
-| Status reports | — | One-page format in the [estimate and timeline](../case-01-example-corp/05-proposal-delivery/estimate-and-timeline.md#status-reporting) |
-| Design-deviation log | — | Table in the [change request](../case-01-example-corp/05-proposal-delivery/change-request-cctv.md#design-deviations-seen-during-the-build) |
+| Status reports | — | One-page format in the [estimate and timeline](../case-01-example-corp/05-proposal-delivery/estimate-and-timeline.md#5-status-reporting) |
+| Design-deviation log | — | Table in the [change request](../case-01-example-corp/05-proposal-delivery/change-request-cctv.md#6-design-deviations-seen-during-the-build) |
 | Updated risk register | [template](templates/risk-register-template.md) | [Risk register](../case-01-example-corp/05-proposal-delivery/risk-register.md) |
 
 ## Exit gate
