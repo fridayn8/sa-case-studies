@@ -1,7 +1,7 @@
 name: ADR proposal
 description: Propose an architecture decision for the Case 01 ADR log
 title: "docs(adr): <decision to be made>"
-labels: ["adr"]
+labels: ["area:adr"]
 body:
   - type: markdown
     attributes:

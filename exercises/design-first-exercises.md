@@ -3,8 +3,8 @@
 > **Goal:** think like a Solution Architect *before* building anything: understand the need,
 > make decisions explicit, and produce a design others can review, build and operate.
 >
-> These exercises work on the Case 01 documents. Do them after reading the engagement
-> playbook stages 2–4.
+> These exercises work on the [Case 01](../case-01-example-corp/README.md) documents. Do them after
+> reading the [engagement playbook](../engagement-playbook/README.md) stages 2–4.
 
 ## 1. Concepts
 

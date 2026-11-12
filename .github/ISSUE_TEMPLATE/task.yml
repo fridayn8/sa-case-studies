@@ -1,7 +1,7 @@
 name: Task
 description: A piece of work (new stage content, case document, template, exercise, fix)
 title: "<type>(<scope>): <short description>"
-labels: ["task"]
+labels: ["docs"]
 body:
   - type: textarea
     id: goal
