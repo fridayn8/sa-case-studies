@@ -39,3 +39,6 @@ desktop.ini
 # Local agent files: personal notes and permissions, never committed
 CLAUDE.local.md
 .claude/settings.local.json
+
+# Personal agent skills: create them as .claude/skills/private-<name>/ and they stay local
+.claude/skills/private-*/
