@@ -14,7 +14,7 @@
 | 1 | Management asks for proposals to secure remote work | RFP, Stakeholder | — |
 | 2 | Architect runs discovery workshops; documents current VPN-less setup | Discovery, As-is, BRD, Constraint, Assumption | [requirements](../01-requirements/requirements.md) |
 | 3 | Requirements written; downtime cost estimated | FR, NFR, BIA, RTO/RPO | [requirements](../01-requirements/requirements.md) |
-| 4 | Options compared: port-forward vs Cloudflare Tunnel; WireGuard vs Tailscale | Trade-off, ADR, PoC | [ADR-0004](../02-options-decisions/adr/0004-remote-access-tailscale-and-wireguard.md), [ADR-0005](../02-options-decisions/adr/0005-public-ingress-cloudflare-tunnel.md), PoC report |
+| 4 | Options compared: port-forward vs Cloudflare Tunnel; WireGuard vs Tailscale | Trade-off, ADR, PoC | [ADR-0004](../02-options-decisions/adr/0004-remote-access-tailscale-and-wireguard.md), [ADR-0005](../02-options-decisions/adr/0005-public-ingress-cloudflare-tunnel.md), [PoC report](../02-options-decisions/options-analysis.md#4-proof-of-concept-the-riskiest-assumption) |
 | 5 | Target design drawn and reviewed | HLD, C4, To-be, SPOF, Threat model | [HLD](../03-design/hld.md), [diagrams](../03-design/diagrams/) |
 | 6 | Detailed design: VLANs, IPs, firewall rules, VM sizes | LLD, VLAN, CIDR, Capacity planning | [LLDs](../03-design/), [cost and capacity](../04-security-cost/) |
 | 7 | Scope, price and timeline agreed | SOW, BoM, TCO, RACI | — |

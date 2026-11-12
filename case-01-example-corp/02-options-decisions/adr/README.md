@@ -5,6 +5,9 @@ Decisions are recorded here following [ADR-0001](0001-record-architecture-decisi
 > [`sa-projects`](https://github.com/fridayn8/sa-projects/blob/main/ROADMAP.md) repository,
 > where each decision is implemented and checked. The ADR text itself is kept as accepted.
 
+Decisions are made in stage 3 of the [engagement playbook](../../../engagement-playbook/03-options-and-decisions.md); the
+options that led to them are compared in the [options analysis](../options-analysis.md).
+
 To propose a new one: copy [`0000-template.md`](0000-template.md), open an issue with the
 **ADR proposal** template, and submit the ADR in a PR with `status: proposed`.
 
