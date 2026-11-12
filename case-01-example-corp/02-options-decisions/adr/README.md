@@ -18,7 +18,7 @@ To propose a new one: copy [`0000-template.md`](0000-template.md), open an issue
 | [0006](0006-iac-terraform-packer-ansible.md) | Split Infrastructure as Code between Terraform, Packer and Ansible | Superseded by 0012 |
 | [0007](0007-secrets-sops-age.md) | Encrypt secrets in Git with SOPS and age | Accepted |
 | [0008](0008-terraform-state-cloudflare-r2.md) | Store Terraform state in Cloudflare R2 using the S3 backend | Accepted |
-| 0009 | *(reserved — off-site backup target, left as exercise 3 of the design-first exercises)* | — |
+| 0009 | *(reserved — off-site backup target, left as [exercise 3](../../../exercises/design-first-exercises.md))* | — |
 | [0010](0010-free-only-tooling-policy.md) | Use only free software and free service tiers | Accepted |
 | [0011](0011-open-source-first.md) | Prefer open-source tools (except the owner's chosen platform services) | Accepted |
 | [0012](0012-opentofu-and-cloud-image-templates.md) | Use OpenTofu, and build VM templates from Debian cloud images instead of Packer | Accepted |
@@ -29,6 +29,6 @@ To propose a new one: copy [`0000-template.md`](0000-template.md), open an issue
 |-------|---------|
 | Second Proxmox node / cluster and HA | Budget or availability target increases (HLD risk R-1) |
 | Dedicated firewall appliance or HA pair | Network outages during hypervisor maintenance become unacceptable (R-2) |
-| Off-site backup target (USB rotation vs remote PBS) — ADR-0009, design-first exercise 3 | Operations phase of the delivery project |
+| Off-site backup target (USB rotation vs remote PBS) — ADR-0009, [exercise 3](../../../exercises/design-first-exercises.md) | Operations phase of the delivery project |
 | Self-hosted runner vs Tailscale GitHub Action for CI access | CI/CD proof of concept |
 | IPv6 inside the office | ISP offers stable prefix |
