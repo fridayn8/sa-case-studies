@@ -204,7 +204,8 @@ stored on the production host. **Restore tests monthly** (one VM) and a **DR tes
 | 4 | Cut over routing to OPNsense in a maintenance window | Medium |
 | 5 | Deploy cloudflared + Access; migrate apps one by one; close port-forwards | Low |
 | 6 | Deploy Tailscale + WireGuard break-glass; remove old admin exposure | Low |
-| 7 | Hypercare (2 weeks), then handover with runbooks | Low |
+| 7 | Handover with runbooks and training (2 weeks) | Low |
+| 8 | Hypercare: close support until the exit criteria are met (2 weeks) | Low |
 
 ## 11. Related documents
 

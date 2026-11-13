@@ -41,3 +41,5 @@ Imported from the former combined repository (source commit `cec06a0`) with thes
 ### Fixed
 
 - Mermaid parse error in `traffic-flows.md` (a `;` inside a sequence-diagram message).
+- HLD §10 transition table listed hypercare before handover; it now matches the playbook, Gantt chart and
+  handover checklist (handover, then hypercare).
